@@ -1,0 +1,56 @@
+{
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@clerk/clerk-react": "^5.45.0",
+    "@react-google-maps/api": "^2.20.7",
+    "@stripe/react-stripe-js": "^3.9.2",
+    "@stripe/stripe-js": "^7.9.0",
+    "@supabase/supabase-js": "^2.56.0",
+    "axios": "^1.11.0",
+    "cra-template-pwa": "2.0.0",
+    "leaflet": "^1.9.4",
+    "mapbox-gl": "^3.14.0",
+    "maplibre-gl": "^5.7.1",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "react-leaflet": "^5.0.0",
+    "react-map-gl": "^8.0.4",
+    "react-router-dom": "^7.8.2",
+    "react-scripts": "5.0.1",
+    "react-select": "^5.10.2",
+    "socket.io-client": "^4.8.1",
+    "web-vitals": "^5.1.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "autoprefixer": "10.4.19",
+    "postcss": "8.4.38",
+    "postcss-loader": "6.2.1",
+    "tailwindcss": "3.3.3"
+  }
+}

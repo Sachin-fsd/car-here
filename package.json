@@ -1,0 +1,33 @@
+{
+  "name": "carhere-fullstack",
+  "version": "1.0.0",
+  "description": "CarHere ride-hailing application with React frontend and Node.js backend",
+  "scripts": {
+    "install:all": "cd server && npm install && cd ../client && npm install",
+    "start:server": "cd server && npm run dev",
+    "start:client": "cd client && npm start",
+    "start:both": "concurrently \"npm run start:server\" \"npm run start:client\"",
+    "build:client": "cd client && npm run build",
+    "server": "cd server && npm start",
+    "client": "cd client && npm start",
+    "dev": "concurrently \"npm run start:server\" \"npm run start:client\""
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "keywords": [
+    "react",
+    "nodejs",
+    "express",
+    "supabase",
+    "stripe",
+    "ride-hailing",
+    "fullstack"
+  ],
+  "author": "CarHere Team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "your-repo-url-here"
+  }
+}
