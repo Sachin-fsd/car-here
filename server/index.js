@@ -28,7 +28,7 @@ const io = new Server(server, {
 
 app.use(cors({
   origin: [
-    'https://vroom-client.vercel.app',
+    'https://car-here.vercel.app/',
     'http://localhost:3000'
   ],
   credentials: true
