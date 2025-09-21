@@ -171,7 +171,7 @@ const Home = () => {
               </div>
               <div className="grid grid-cols-2 gap-6">
                 <div className="text-center">
-                  <div className="text-3xl font-bold text-cyan-400 mb-1">< 30s</div>
+                  <div className="text-3xl font-bold text-cyan-400 mb-1"> 30s</div>
                   <div className="text-sm text-slate-400">Avg Response Time</div>
                 </div>
                 <div className="text-center">
